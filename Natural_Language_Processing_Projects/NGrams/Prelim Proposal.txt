@@ -1,0 +1,13 @@
+Determine a reviewer's pretension level aka personality 
+traits
+
+Figure out which sentences are useful and which aren't
+to readers of them.  Take out all the fluff of a review.
+
+Determine if a review is useful.  
+	tell if it correlates with how sophisticated they
+		type their reviews.  
+	try to filter out unuseful stuff.
+	
+Create reviews based on reviews.  Say, "make a 4 star
+	review for this place"
