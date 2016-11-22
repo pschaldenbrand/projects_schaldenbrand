@@ -1,0 +1,44 @@
+	The format of each screenshot is the top image is the query image, then the 
+image to the right (top right) is the best match.  The second best match is 
+bottom-left and the third best match is bottom-right.
+	Queries were run on the subset data.
+	
+query1.png
+		In this image I selected a region containing a couch and part of a woman's
+	torso.  This was a very large region so it makes sense that the closest match
+	to it (top-right) was of the same picture.  Obviously the bag of words for 
+	would be similar between a picture and a large subset of the picture.  The 
+	interesting about this test case is that the bottom two images have another
+	person on the couch but it was still able to determine that the query was
+	similar to them.
+	
+query2.png
+		I selected a region of the query image that contained a blanket with a 
+	unique design on it.  The first and third best matches all contain the blanket
+	however, the second image does not.  In this second image is a carpet with a 
+	similar design as the blanket, and I think that the bag of words for the carpet
+	might have been very similar to this blanket and this is why the images matched.
+
+query3.png
+		This is an example where the algorithm failed to find images that match the
+	region I selected.  I selected a region containing a woman's long, blonde hair.
+	The matching images were all of men sitting.  It's hard to see anything 
+	resembling the region I selected.  One reason might be that the region I selected
+	is very small, and you're comparing the bag of words from this very small region
+	to the bag of words of an entire image.  So unless the entire image is of hair,
+	this little feature is going to get drown out with a bunch of other noise.
+	
+query4.png
+		I selected a region of an image containing a dress with a very unique design
+	on it.  The query image and the second best match are the same image, which is
+	a pretty uninteresting result.  The third and first best matches however, are 
+	both of the woman's dress, but this time with very different backgrounds than 
+	the query image.  The algorithm was still able to point out the dress despite
+	this background difference.
+	
+query5.png
+		In the query region, I selected some text from the screen.  The first two 
+	matches were of the same text in different images.  The third best match is
+	very interesting because the text is different.  The background is pretty 
+	similar but now the name is different.  The algorithm must have noticed the 
+	shape of the letters and identified it in a different image.

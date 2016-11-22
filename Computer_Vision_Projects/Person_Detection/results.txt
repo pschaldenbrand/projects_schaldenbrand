@@ -1,0 +1,7 @@
+100 bounding boxes my system predicted as positive
+96 of those boxes actually contained a person
+17 people in the images in the test set
+17 people were detected in the positive bounding boxes
+
+Precision = 96/100 = .96
+Recall = 17/17 = 1.00

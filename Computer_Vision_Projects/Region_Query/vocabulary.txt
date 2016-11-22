@@ -1,0 +1,6 @@
+	visualizeVocabulary.m shows you a visual representation of a word from
+a bag of words.  It computes the bag of words of a few images, then it 
+randomly selects two words to visualize.  It takes examples of these words
+from a few images, then displays them.  So all of the 25 images in one of
+these figures are examples of one visual word.  They're all features that 
+were clustered to the same word.
