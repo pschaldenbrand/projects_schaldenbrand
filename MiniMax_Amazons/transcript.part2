@@ -1,0 +1,233 @@
+This was run with a file that looked like:
+20
+4
+pls21
+a2 b3 
+human
+a0 c2 
+
+
+
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk2>python amazons27v3.py amazons1.config
+pls21 : move: ['a2', 'a1', 'a2'] time: 19.0558602364 seconds
+     Black
+  a b c d
+3 . Q . . 3
+2 x . q . 2
+1 Q . . . 1
+0 q . . . 0
+  a b c d
+     White
+
+You're playing Black (q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: a0-b1
+     Black
+  a b c d
+3 . Q . . 3
+2 x . q . 2
+1 Q q . . 1
+0 . . . . 0
+  a b c d
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: b0
+human : move: ['a0', 'b1', 'b0'] time: 27.205493263 seconds
+pls21 : move: ['a1', 'b2', 'a1'] time: 19.1596723511 seconds
+     Black
+  a b c d
+3 . Q . . 3
+2 x Q q . 2
+1 x q . . 1
+0 . x . . 0
+  a b c d
+     White
+
+You're playing Black (q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: c2-c3
+     Black
+  a b c d
+3 . Q q . 3
+2 x Q . . 2
+1 x q . . 1
+0 . x . . 0
+  a b c d
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: c2
+human : move: ['c2', 'c3', 'c2'] time: 23.9982202441 seconds
+pls21 : move: ['b2', 'c1', 'c0'] time: 1.33785179315 seconds
+     Black
+  a b c d
+3 . Q q . 3
+2 x . x . 2
+1 x q Q . 1
+0 . x x . 0
+  a b c d
+     White
+
+You're playing Black (q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: c3-d3
+     Black
+  a b c d
+3 . Q . q 3
+2 x . x . 2
+1 x q Q . 1
+0 . x x . 0
+  a b c d
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: c3
+human : move: ['c3', 'd3', 'c3'] time: 22.2690264004 seconds
+pls21 : move: ['c1', 'd1', 'd0'] time: 0.244687399012 seconds
+     Black
+  a b c d
+3 . Q x q 3
+2 x . x . 2
+1 x q . Q 1
+0 . x x x 0
+  a b c d
+     White
+
+You're playing Black (q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: d3-d2
+     Black
+  a b c d
+3 . Q x . 3
+2 x . x q 2
+1 x q . Q 1
+0 . x x x 0
+  a b c d
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: d3
+human : move: ['d3', 'd2', 'd3'] time: 17.9561891653 seconds
+pls21 : move: ['d1', 'c1', 'd1'] time: 0.0145647637567 seconds
+     Black
+  a b c d
+3 . Q x x 3
+2 x . x q 2
+1 x q Q x 1
+0 . x x x 0
+  a b c d
+     White
+
+You're playing Black (q)
+Options:
+* To move, type "<loc-from> <loc-to>" (e.g., "a3-d3")
+* To resign, type "<return>"
+Input please: b1-b2
+     Black
+  a b c d
+3 . Q x x 3
+2 x q x q 2
+1 x . Q x 1
+0 . x x x 0
+  a b c d
+     White
+
+Options:
+* To shoot, type "<loc-to>" (e.g., "h3")
+* To resign, type "<return>"
+Input please: b1
+human : move: ['b1', 'b2', 'b1'] time: 26.0428713764 seconds
+pls21 : move: ['b3', 'a3', 'b3'] time: 0.00113619932634 seconds
+     Black
+  a b c d
+3 Q x x x 3
+2 x q x q 2
+1 x x Q x 1
+0 . x x x 0
+  a b c d
+     White
+
+pls21 (white) wins by a margin of 1
+
+
+===========================================================================
+
+===========================================================================
+
+amazons1.config was this for this execution:
+15
+7
+pls21
+a2 b3 g4
+pls21
+a0 c2 f6
+
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk2>python amazons27v3.py amazons1.config
+pls21 : move: ['a2', 'a1', 'a2'] time: 14.005943318 seconds
+pls21 : move: ['a0', 'b0', 'b1'] time: 14.0083709762 seconds
+pls21 : move: ['a1', 'a0', 'a1'] time: 14.0083164576 seconds
+pls21 : move: ['f6', 'f4', 'g3'] time: 14.0069183319 seconds
+pls21 : move: ['b3', 'b2', 'b3'] time: 14.0075958639 seconds
+pls21 : move: ['b0', 'c0', 'f3'] time: 14.0079079631 seconds
+pls21 : move: ['a0', 'b0', 'a0'] time: 14.0086123593 seconds
+pls21 : move: ['c0', 'c1', 'c0'] time: 14.0065627758 seconds
+pls21 : move: ['b2', 'c3', 'c4'] time: 14.0205934153 seconds
+pls21 : move: ['c1', 'd1', 'd0'] time: 14.0084677665 seconds
+pls21 : move: ['g4', 'f5', 'g5'] time: 14.0093700889 seconds
+pls21 : move: ['d1', 'd2', 'd1'] time: 14.0108488073 seconds
+pls21 : move: ['b0', 'c1', 'b0'] time: 14.0114180921 seconds
+pls21 : move: ['c2', 'b2', 'c2'] time: 14.0107346342 seconds
+pls21 : move: ['c3', 'd3', 'c3'] time: 14.0132784407 seconds
+pls21 : move: ['b2', 'a3', 'a4'] time: 14.0111178447 seconds
+pls21 : move: ['d3', 'e4', 'e2'] time: 14.0141369112 seconds
+pls21 : move: ['d2', 'd5', 'e5'] time: 14.0179508432 seconds
+pls21 : move: ['c1', 'e3', 'd3'] time: 14.0233051232 seconds
+pls21 : move: ['a3', 'b2', 'c1'] time: 14.031413778 seconds
+pls21 : move: ['e3', 'c5', 'd4'] time: 14.0218825037 seconds
+pls21 : move: ['b2', 'a3', 'b2'] time: 14.0287719961 seconds
+pls21 : move: ['c5', 'c6', 'c5'] time: 14.025679843 seconds
+pls21 : move: ['a3', 'b4', 'b6'] time: 14.0457462451 seconds
+pls21 : move: ['c6', 'b5', 'a5'] time: 14.0412409541 seconds
+pls21 : move: ['f4', 'e3', 'f4'] time: 14.0503807216 seconds
+pls21 : move: ['b5', 'c6', 'd6'] time: 0.889996863205 seconds
+pls21 : move: ['e3', 'f2', 'g2'] time: 14.055369569 seconds
+pls21 : move: ['f5', 'e6', 'g6'] time: 14.0684141328 seconds
+pls21 : move: ['f2', 'f1', 'f0'] time: 8.04221952351 seconds
+pls21 : move: ['e4', 'e3', 'e4'] time: 9.28493714163 seconds
+pls21 : move: ['f1', 'f2', 'f1'] time: 0.66205892276 seconds
+pls21 : move: ['e3', 'd2', 'e1'] time: 0.517950448119 seconds
+pls21 : move: ['f2', 'g1', 'g0'] time: 0.0712570014925 seconds
+pls21 : move: ['d2', 'e3', 'f2'] time: 0.644804969568 seconds
+pls21 : move: ['b4', 'b5', 'b4'] time: 0.0054838605177 seconds
+     Black
+  a b c d e f g
+6 . x Q x Q . x 6
+5 x q x q x . x 5
+4 x x x x x x . 4
+3 . x x x Q x x 3
+2 x x x . x x x 2
+1 x x x x x x q 1
+0 x x x x . x x 0
+  a b c d e f g
+     White
+
+pls21 (white) wins by a margin of 3

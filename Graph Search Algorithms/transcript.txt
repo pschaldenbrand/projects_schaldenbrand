@@ -1,0 +1,971 @@
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config bfs 
+Problem is      	jugs
+Search algorithm	bfs
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  1979
+Maximum nodes in Frontier:  4619
+Maximum nodes in Explored:  1977
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config dfs 
+Problem is      	jugs
+Search algorithm	dfs
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[0, 11]
+	[4, 11]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  2641
+Maximum nodes in Frontier:  201
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config iddfs 
+Problem is      	jugs
+Search algorithm	iddfs
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  2832
+Maximum nodes in Frontier:  9
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config unicost 
+Problem is      	jugs
+Search algorithm	unicost
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  1979
+Maximum nodes in Frontier:  4619
+Maximum nodes in Explored:  1977
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config astar 1 
+Problem is      	jugs
+Search algorithm	astar
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  937
+Maximum nodes in Frontier:  2026
+Maximum nodes in Explored:  935
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config idastar 1 
+Problem is      	jugs
+Search algorithm	idastar
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  4268
+Maximum nodes in Frontier:  4619
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_jugs.config idastar 2 
+Problem is      	jugs
+Search algorithm	idastar
+
+Solution Path:
+	[0, 0]
+	[4, 0]
+	[0, 4]
+	[4, 4]
+	[0, 8]
+	[4, 8]
+	[1, 11]
+	[1, 0]
+
+Nodes Visited:  4268
+Maximum nodes in Frontier:  4619
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config bfs 
+Problem is      	cities
+Search algorithm	bfs
+
+Solution Path:
+	C00
+	C44
+
+Nodes Visited:  16
+Maximum nodes in Frontier:  193
+Maximum nodes in Explored:  14
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config dfs 
+Problem is      	cities
+Search algorithm	dfs
+
+Solution Path:
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C01
+	C00
+	C44
+
+Nodes Visited:  223
+Maximum nodes in Frontier:  201
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config iddfs 
+Problem is      	cities
+Search algorithm	iddfs
+
+Solution Path:
+	C00
+	C44
+
+Nodes Visited:  26
+Maximum nodes in Frontier:  3
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config unicost 
+Problem is      	cities
+Search algorithm	unicost
+
+Solution Path:
+	C00
+	C11
+	C02
+	C13
+	C22
+	C32
+	C42
+	C33
+	C43
+	C34
+	C44
+
+Nodes Visited:  3710
+Maximum nodes in Frontier:  66781
+Maximum nodes in Explored:  3708
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config greedy 1
+Problem is              cities
+Search algorithm        greedy
+
+Solution Path:
+        C00
+        C44
+
+Nodes Visited:  3
+Maximum nodes in Frontier:  24
+Maximum nodes in Explored:  1
+
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config astar 1 
+Problem is      	cities
+Search algorithm	astar
+
+Solution Path:
+	C00
+	C11
+	C20
+	C30
+	C40
+	C31
+	C41
+	C32
+	C42
+	C33
+	C43
+	C34
+	C44
+
+Nodes Visited:  497
+Maximum nodes in Frontier:  11180
+Maximum nodes in Explored:  495
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_cities.config idastar 1 
+Problem is      	cities
+Search algorithm	idastar
+
+Solution Path:
+	C00
+	C11
+	C20
+	C30
+	C40
+	C31
+	C41
+	C32
+	C42
+	C33
+	C43
+	C34
+	C44
+
+Nodes Visited:  19657
+Maximum nodes in Frontier:  56826
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config bfs 
+Problem is      	pancakes
+Search algorithm	bfs
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  6363
+Maximum nodes in Frontier:  25445
+Maximum nodes in Explored:  6361
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config dfs 
+Problem is      	pancakes
+Search algorithm	dfs
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  15540
+Maximum nodes in Frontier:  201
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config iddfs 
+Problem is      	pancakes
+Search algorithm	iddfs
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  7954
+Maximum nodes in Frontier:  8
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config unicost 
+Problem is      	pancakes
+Search algorithm	unicost
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  6363
+Maximum nodes in Frontier:  25445
+Maximum nodes in Explored:  6361
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config greedy 1 
+Problem is      	pancakes
+Search algorithm	greedy
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[1, -3, 2, 5, 4]
+	[-5, -2, 3, -1, 4]
+	[-4, 1, -3, 2, 5]
+	[-2, 3, -1, 4, 5]
+	[-3, 2, -1, 4, 5]
+	[1, -2, 3, 4, 5]
+	[2, -1, 3, 4, 5]
+	[-2, -1, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  33
+Maximum nodes in Frontier:  125
+Maximum nodes in Explored:  31
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config astar 1 
+Problem is      	pancakes
+Search algorithm	astar
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  77
+Maximum nodes in Frontier:  301
+Maximum nodes in Explored:  75
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config astar 2 
+Problem is      	pancakes
+Search algorithm	astar
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-5, -2, 1, -3, 4]
+	[-4, 3, -1, 2, 5]
+	[-2, 1, -3, 4, 5]
+	[3, -1, 2, 4, 5]
+	[-3, -1, 2, 4, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  1028
+Maximum nodes in Frontier:  4105
+Maximum nodes in Explored:  1026
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config idastar 1 
+Problem is      	pancakes
+Search algorithm	idastar
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  11243
+Maximum nodes in Frontier:  25445
+
+C:\Users\peter\Dropbox\Artificial Inteligence\pls21-hmwk1>python puzzlesolver.py test_pancakes3.config idastar 2 
+Problem is      	pancakes
+Search algorithm	idastar
+
+Solution Path:
+	[3, -1, 2, 5, 4]
+	[-3, -1, 2, 5, 4]
+	[-5, -2, 1, 3, 4]
+	[-4, -3, -1, 2, 5]
+	[-2, 1, 3, 4, 5]
+	[-1, 2, 3, 4, 5]
+	[1, 2, 3, 4, 5]
+
+Nodes Visited:  11243
+Maximum nodes in Frontier:  25445
